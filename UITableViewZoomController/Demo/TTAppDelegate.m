@@ -8,9 +8,8 @@
 
 #import "TTAppDelegate.h"
 
-#import "TTFirstViewController.h"
-
-#import "TTSecondViewController.h"
+#import "TableViews/TabOneViewController.h"
+#import "TableViews/TabTwoViewController.h"
 
 @implementation TTAppDelegate
 
@@ -19,13 +18,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     UIViewController *viewController1, *viewController2;
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[TTFirstViewController alloc] initWithNibName:@"TTFirstViewController_iPhone" bundle:nil];
-        viewController2 = [[TTSecondViewController alloc] initWithNibName:@"TTSecondViewController_iPhone" bundle:nil];
-    } else {
-        viewController1 = [[TTFirstViewController alloc] initWithNibName:@"TTFirstViewController_iPad" bundle:nil];
-        viewController2 = [[TTSecondViewController alloc] initWithNibName:@"TTSecondViewController_iPad" bundle:nil];
-    }
+
+    viewController1 = [[TabOneViewController alloc] init];
+    viewController2 = [[TabTwoViewController alloc] init];
+    
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2];
     self.window.rootViewController = self.tabBarController;

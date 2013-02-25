@@ -16,16 +16,13 @@
 		9F70249C16DBF6650003B5FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F70249B16DBF6650003B5FA /* Default.png */; };
 		9F70249E16DBF6650003B5FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F70249D16DBF6650003B5FA /* Default@2x.png */; };
 		9F7024A016DBF6650003B5FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F70249F16DBF6650003B5FA /* Default-568h@2x.png */; };
-		9F7024A316DBF6650003B5FA /* TTFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7024A216DBF6650003B5FA /* TTFirstViewController.m */; };
-		9F7024A516DBF6650003B5FA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024A416DBF6650003B5FA /* first.png */; };
-		9F7024A716DBF6650003B5FA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024A616DBF6650003B5FA /* first@2x.png */; };
-		9F7024AA16DBF6650003B5FA /* TTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7024A916DBF6650003B5FA /* TTSecondViewController.m */; };
-		9F7024AC16DBF6650003B5FA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024AB16DBF6650003B5FA /* second.png */; };
-		9F7024AE16DBF6650003B5FA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024AD16DBF6650003B5FA /* second@2x.png */; };
-		9F7024B116DBF6650003B5FA /* TTFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024AF16DBF6650003B5FA /* TTFirstViewController_iPhone.xib */; };
-		9F7024B416DBF6650003B5FA /* TTFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024B216DBF6650003B5FA /* TTFirstViewController_iPad.xib */; };
-		9F7024B716DBF6650003B5FA /* TTSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024B516DBF6650003B5FA /* TTSecondViewController_iPhone.xib */; };
-		9F7024BA16DBF6650003B5FA /* TTSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024B816DBF6650003B5FA /* TTSecondViewController_iPad.xib */; };
+		9F7024C316DBF7080003B5FA /* TTUITableViewZoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7024C216DBF7080003B5FA /* TTUITableViewZoomController.m */; };
+		9F7024C916DBF7E20003B5FA /* TabOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7024C716DBF7E20003B5FA /* TabOneViewController.m */; };
+		9F7024CA16DBF7E20003B5FA /* TabOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024C816DBF7E20003B5FA /* TabOneViewController.xib */; };
+		9F7024CE16DBF7F80003B5FA /* TabTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7024CC16DBF7F80003B5FA /* TabTwoViewController.m */; };
+		9F7024CF16DBF7F80003B5FA /* TabTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024CD16DBF7F80003B5FA /* TabTwoViewController.xib */; };
+		9F7024D116DBFBE20003B5FA /* FancyCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024D016DBFBE20003B5FA /* FancyCellView.xib */; };
+		9F7024D316DBFC9B0003B5FA /* about-tomthorpelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024D216DBFC9B0003B5FA /* about-tomthorpelogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,21 +36,19 @@
 		9F70249716DBF6650003B5FA /* UITableViewZoomController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewZoomController-Prefix.pch"; sourceTree = "<group>"; };
 		9F70249816DBF6650003B5FA /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
 		9F70249916DBF6650003B5FA /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
-		9F70249B16DBF6650003B5FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		9F70249D16DBF6650003B5FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		9F70249F16DBF6650003B5FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		9F7024A116DBF6650003B5FA /* TTFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFirstViewController.h; sourceTree = "<group>"; };
-		9F7024A216DBF6650003B5FA /* TTFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFirstViewController.m; sourceTree = "<group>"; };
-		9F7024A416DBF6650003B5FA /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		9F7024A616DBF6650003B5FA /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		9F7024A816DBF6650003B5FA /* TTSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSecondViewController.h; sourceTree = "<group>"; };
-		9F7024A916DBF6650003B5FA /* TTSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSecondViewController.m; sourceTree = "<group>"; };
-		9F7024AB16DBF6650003B5FA /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		9F7024AD16DBF6650003B5FA /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		9F7024B016DBF6650003B5FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTFirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		9F7024B316DBF6650003B5FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTFirstViewController_iPad.xib; sourceTree = "<group>"; };
-		9F7024B616DBF6650003B5FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTSecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		9F7024B916DBF6650003B5FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTSecondViewController_iPad.xib; sourceTree = "<group>"; };
+		9F70249B16DBF6650003B5FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Demo/Default.png; sourceTree = "<group>"; };
+		9F70249D16DBF6650003B5FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Demo/Default@2x.png"; sourceTree = "<group>"; };
+		9F70249F16DBF6650003B5FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Demo/Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F7024C116DBF7080003B5FA /* TTUITableViewZoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUITableViewZoomController.h; sourceTree = "<group>"; };
+		9F7024C216DBF7080003B5FA /* TTUITableViewZoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUITableViewZoomController.m; sourceTree = "<group>"; };
+		9F7024C616DBF7E20003B5FA /* TabOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabOneViewController.h; sourceTree = "<group>"; };
+		9F7024C716DBF7E20003B5FA /* TabOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneViewController.m; sourceTree = "<group>"; };
+		9F7024C816DBF7E20003B5FA /* TabOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabOneViewController.xib; sourceTree = "<group>"; };
+		9F7024CB16DBF7F80003B5FA /* TabTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabTwoViewController.h; sourceTree = "<group>"; };
+		9F7024CC16DBF7F80003B5FA /* TabTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabTwoViewController.m; sourceTree = "<group>"; };
+		9F7024CD16DBF7F80003B5FA /* TabTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabTwoViewController.xib; sourceTree = "<group>"; };
+		9F7024D016DBFBE20003B5FA /* FancyCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FancyCellView.xib; sourceTree = "<group>"; };
+		9F7024D216DBFC9B0003B5FA /* about-tomthorpelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-tomthorpelogo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,21 +95,8 @@
 		9F70248F16DBF6650003B5FA /* UITableViewZoomController */ = {
 			isa = PBXGroup;
 			children = (
-				9F70249816DBF6650003B5FA /* TTAppDelegate.h */,
-				9F70249916DBF6650003B5FA /* TTAppDelegate.m */,
-				9F7024A116DBF6650003B5FA /* TTFirstViewController.h */,
-				9F7024A216DBF6650003B5FA /* TTFirstViewController.m */,
-				9F7024A416DBF6650003B5FA /* first.png */,
-				9F7024A616DBF6650003B5FA /* first@2x.png */,
-				9F7024A816DBF6650003B5FA /* TTSecondViewController.h */,
-				9F7024A916DBF6650003B5FA /* TTSecondViewController.m */,
-				9F7024AB16DBF6650003B5FA /* second.png */,
-				9F7024AD16DBF6650003B5FA /* second@2x.png */,
-				9F7024AF16DBF6650003B5FA /* TTFirstViewController_iPhone.xib */,
-				9F7024B216DBF6650003B5FA /* TTFirstViewController_iPad.xib */,
-				9F7024B516DBF6650003B5FA /* TTSecondViewController_iPhone.xib */,
-				9F7024B816DBF6650003B5FA /* TTSecondViewController_iPad.xib */,
-				9F70249016DBF6650003B5FA /* Supporting Files */,
+				9F7024C416DBF7270003B5FA /* Demo */,
+				9F7024C016DBF6C00003B5FA /* Source */,
 			);
 			path = UITableViewZoomController;
 			sourceTree = "<group>";
@@ -131,6 +113,42 @@
 				9F70249F16DBF6650003B5FA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9F7024C016DBF6C00003B5FA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9F7024C116DBF7080003B5FA /* TTUITableViewZoomController.h */,
+				9F7024C216DBF7080003B5FA /* TTUITableViewZoomController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9F7024C416DBF7270003B5FA /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9F7024D216DBFC9B0003B5FA /* about-tomthorpelogo.png */,
+				9F7024C516DBF7AA0003B5FA /* TableViews */,
+				9F70249016DBF6650003B5FA /* Supporting Files */,
+				9F70249816DBF6650003B5FA /* TTAppDelegate.h */,
+				9F70249916DBF6650003B5FA /* TTAppDelegate.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		9F7024C516DBF7AA0003B5FA /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				9F7024C616DBF7E20003B5FA /* TabOneViewController.h */,
+				9F7024C716DBF7E20003B5FA /* TabOneViewController.m */,
+				9F7024C816DBF7E20003B5FA /* TabOneViewController.xib */,
+				9F7024CB16DBF7F80003B5FA /* TabTwoViewController.h */,
+				9F7024CC16DBF7F80003B5FA /* TabTwoViewController.m */,
+				9F7024CD16DBF7F80003B5FA /* TabTwoViewController.xib */,
+				9F7024D016DBFBE20003B5FA /* FancyCellView.xib */,
+			);
+			path = TableViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,14 +207,10 @@
 				9F70249C16DBF6650003B5FA /* Default.png in Resources */,
 				9F70249E16DBF6650003B5FA /* Default@2x.png in Resources */,
 				9F7024A016DBF6650003B5FA /* Default-568h@2x.png in Resources */,
-				9F7024A516DBF6650003B5FA /* first.png in Resources */,
-				9F7024A716DBF6650003B5FA /* first@2x.png in Resources */,
-				9F7024AC16DBF6650003B5FA /* second.png in Resources */,
-				9F7024AE16DBF6650003B5FA /* second@2x.png in Resources */,
-				9F7024B116DBF6650003B5FA /* TTFirstViewController_iPhone.xib in Resources */,
-				9F7024B416DBF6650003B5FA /* TTFirstViewController_iPad.xib in Resources */,
-				9F7024B716DBF6650003B5FA /* TTSecondViewController_iPhone.xib in Resources */,
-				9F7024BA16DBF6650003B5FA /* TTSecondViewController_iPad.xib in Resources */,
+				9F7024CA16DBF7E20003B5FA /* TabOneViewController.xib in Resources */,
+				9F7024CF16DBF7F80003B5FA /* TabTwoViewController.xib in Resources */,
+				9F7024D116DBFBE20003B5FA /* FancyCellView.xib in Resources */,
+				9F7024D316DBFC9B0003B5FA /* about-tomthorpelogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +223,9 @@
 			files = (
 				9F70249616DBF6650003B5FA /* main.m in Sources */,
 				9F70249A16DBF6650003B5FA /* TTAppDelegate.m in Sources */,
-				9F7024A316DBF6650003B5FA /* TTFirstViewController.m in Sources */,
-				9F7024AA16DBF6650003B5FA /* TTSecondViewController.m in Sources */,
+				9F7024C316DBF7080003B5FA /* TTUITableViewZoomController.m in Sources */,
+				9F7024C916DBF7E20003B5FA /* TabOneViewController.m in Sources */,
+				9F7024CE16DBF7F80003B5FA /* TabTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,38 +238,7 @@
 				9F70249316DBF6650003B5FA /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9F7024AF16DBF6650003B5FA /* TTFirstViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F7024B016DBF6650003B5FA /* en */,
-			);
-			name = TTFirstViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		9F7024B216DBF6650003B5FA /* TTFirstViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F7024B316DBF6650003B5FA /* en */,
-			);
-			name = TTFirstViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		9F7024B516DBF6650003B5FA /* TTSecondViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F7024B616DBF6650003B5FA /* en */,
-			);
-			name = TTSecondViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		9F7024B816DBF6650003B5FA /* TTSecondViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F7024B916DBF6650003B5FA /* en */,
-			);
-			name = TTSecondViewController_iPad.xib;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

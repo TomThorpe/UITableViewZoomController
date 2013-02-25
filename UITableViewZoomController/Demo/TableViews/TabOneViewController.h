@@ -1,5 +1,5 @@
 //
-//  TTSecondViewController.h
+//  TabOneViewController.h
 //  UITableViewZoomController
 //
 //  Created by Thomas Thorpe on 25/02/2013.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TTUITableViewZoomController.h"
 
-@interface TTSecondViewController : UIViewController
+@interface TabOneViewController : TTUITableViewZoomController
 
 @end
