@@ -20,7 +20,9 @@
     UIViewController *viewController1, *viewController2;
 
     viewController1 = [[TabOneViewController alloc] init];
+    viewController1.tabBarItem.title = @"Custom Cells";
     viewController2 = [[TabTwoViewController alloc] init];
+    viewController2.tabBarItem.title = @"Simple Cells";
     
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2];
