@@ -3,6 +3,10 @@ UITableViewZoomController
 
 A Cocoa Touch UITableViewController subclass in that provides a zoom effect as cells appear for the first time (similar in style to Google+ iPhone app)
 
+![Screenshot](screenshotDemo.gif)
+
+[Youtube Video](http://www.youtube.com/watch?v=88l25kBV9so&feature=youtu.be "Youtube Video")
+
 Usage
 ---
 * In the Source directory, find `TTUITableViewZoomController.h` and `TTUITableViewZoomController.m` and include them in your prohject.
