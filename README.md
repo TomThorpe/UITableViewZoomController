@@ -56,6 +56,6 @@ Demo
 ---
 The included source is an XCode project which you can open to see a demo.
 
-The Demo/TableViews folder also shows two example of UITableViewControllers that subclass TTUITableViewZoomController; one that uses a custom cell style and one that uses one of the default Cocoa Touch styles. Note that this effect generaly works better on custom cell styles than the default cell styles, but I've provided demos of both for you to try.
+The Demo/TableViews folder also shows two example of UITableViewControllers that subclass TTUITableViewZoomController; one that uses a custom cell style and one that uses one of the default Cocoa Touch styles. Note that this effect generally works better on custom cell styles than the default cell styles, but I've provided demos of both for you to try.
 
 You can also refer to these demos for reference of how to use the library if anything is unclear :-)
