@@ -9,7 +9,7 @@ A Cocoa Touch UITableViewController subclass that provides a zoom effect as cell
 
 Usage
 ---
-* In the Source directory, find `TTUITableViewZoomController.h` and `TTUITableViewZoomController.m` and include them in your prohject.
+* In the Source directory, find `TTUITableViewZoomController.h` and `TTUITableViewZoomController.m` and include them in your project.
 * Where you would normally use (subclass) a `UITableViewController`, #import "TTUITableViewZoomController.h" and subclass `TTUITableViewZoomController` instead.
 * That's it!
 
