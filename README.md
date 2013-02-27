@@ -1,11 +1,17 @@
 UITableViewZoomController
 =========================
 
-A Cocoa Touch UITableViewController subclass in that provides a zoom effect as cells appear for the first time (similar in style to Google+ iPhone app)
+A Cocoa Touch UITableViewController subclass that provides a zoom effect as cells appear for the first time (similar in style to Google+ iPhone app)
+
+![Screenshot](screenshotDemo.gif)
+
+Example of UITableViewZoomController in action (using a custom cell with the SDWebImage Library)
+
+[Youtube Video](http://www.youtube.com/watch?v=88l25kBV9so&feature=youtu.be "Youtube Video")
 
 Usage
 ---
-* In the Source directory, find `TTUITableViewZoomController.h` and `TTUITableViewZoomController.m` and include them in your prohject.
+* In the Source directory, find `TTUITableViewZoomController.h` and `TTUITableViewZoomController.m` and include them in your project.
 * Where you would normally use (subclass) a `UITableViewController`, #import "TTUITableViewZoomController.h" and subclass `TTUITableViewZoomController` instead.
 * That's it!
 
@@ -52,6 +58,6 @@ Demo
 ---
 The included source is an XCode project which you can open to see a demo.
 
-The Demo/TableViews folder also shows two example of UITableViewControllers that subclass TTUITableViewZoomController; one that uses a custom cell style and one that uses one of the default Cocoa Touch styles. Note that this effect generaly works better on custom cell styles than the default cell styles, but I've provided demos of both for you to try.
+The Demo/TableViews folder also shows two example of UITableViewControllers that subclass TTUITableViewZoomController; one that uses a custom cell style and one that uses one of the default Cocoa Touch styles. Note that this effect generally works better on custom cell styles than the default cell styles, but I've provided demos of both for you to try.
 
 You can also refer to these demos for reference of how to use the library if anything is unclear :-)
