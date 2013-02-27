@@ -4,6 +4,7 @@ UITableViewZoomController
 A Cocoa Touch UITableViewController subclass that provides a zoom effect as cells appear for the first time (similar in style to Google+ iPhone app)
 
 ![Screenshot](screenshotDemo.gif)
+
 Example of UITableViewZoomController in action (using a custom cell with the SDWebImage Library)
 
 [Youtube Video](http://www.youtube.com/watch?v=88l25kBV9so&feature=youtu.be "Youtube Video")
