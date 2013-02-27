@@ -5,9 +5,13 @@ A Cocoa Touch UITableViewController subclass that provides a zoom effect as cell
 
 ![Screenshot](screenshotDemo.gif)
 
-Example of UITableViewZoomController in action (using a custom cell with the SDWebImage Library)
+*Example of UITableViewZoomController in action (using a custom cell with the SDWebImage Library). This is just an idea of what it can look like, the implementation of the cell design is up to you! This library just takes care of the aniamation into view.*
 
 [Youtube Video](http://www.youtube.com/watch?v=88l25kBV9so&feature=youtu.be "Youtube Video")
+
+
+![Screenshot](Screenshots/screenshot1.png)![Screenshot](Screenshots/screenshot2.png)![Screenshot](Screenshots/screenshot4.png)
+
 
 Usage
 ---
