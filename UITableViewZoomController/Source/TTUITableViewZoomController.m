@@ -40,7 +40,11 @@
         
         //now make the image view a bit bigger, so we can do a zoomout effect when it becomes visible
         cell.contentView.alpha = self.cellZoomInitialAlpha.floatValue;
-        cell.contentView.transform = CGAffineTransformMakeScale(self.cellZoomXScaleFactor.floatValue, self.cellZoomYScaleFactor.floatValue);
+        
+        CGAffineTransform transformScale = CGAffineTransformMakeScale(self.cellZoomXScaleFactor.floatValue, self.cellZoomYScaleFactor.floatValue);
+        CGAffineTransform transformTranslate = CGAffineTransformMakeTranslation(self.cellZoomXOffset.floatValue, self.cellZoomYOffset.floatValue);
+        
+        cell.contentView.transform = CGAffineTransformConcat(transformScale, transformTranslate);
         
         [self.tableView bringSubviewToFront:cell.contentView];
         [UIView animateWithDuration:self.cellZoomAnimationDuration.floatValue animations:^{
@@ -80,6 +84,18 @@
         _xZoomFactor = [NSNumber numberWithFloat:1.25];
     }
     return _xZoomFactor;
+}
+-(NSNumber *)cellZoomXOffset{
+    if (_cellZoomXOffset == nil){
+        _cellZoomXOffset = [NSNumber numberWithFloat:0];
+    }
+    return _cellZoomXOffset;
+}
+-(NSNumber *)cellZoomYOffset{
+    if (_cellZoomYOffset == nil){
+        _cellZoomYOffset = [NSNumber numberWithFloat:0];
+    }
+    return _cellZoomYOffset;
 }
 -(NSNumber *)cellZoomYScaleFactor{
     if (_yZoomFactor == nil){

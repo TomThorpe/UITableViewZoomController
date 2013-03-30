@@ -6,16 +6,21 @@
 //  Copyright (c) 2013 Thomas Thorpe. All rights reserved.
 //
 
-#import "TabOneViewController.h"
-
-@implementation TabOneViewController
+#import "TabThreeViewController.h"
 
 /**
- This example uses all the default values of the properties for the table view zoom controller, and doesn't change anything. It uses a custom cell view "FancyCellView" to display an image in each cell rather than text.
+ This example uses the cellZoomXOffset and cellZoomYOffset properties to get the cell to appear 
+ diagonally from the bottom left, as well as the cellZoomAnimationDuration property to increase the speed. 
  */
+@implementation TabThreeViewController
+
 -(void)viewDidLoad{
     [self.tableView registerNib:[UINib nibWithNibName:@"FancyCellView" bundle:nil]
          forCellReuseIdentifier:@"FancyCellView"];
+    
+    self.cellZoomXOffset = [NSNumber numberWithFloat:-75];
+    self.cellZoomYOffset = [NSNumber numberWithFloat:75];
+    self.cellZoomAnimationDuration = [NSNumber numberWithFloat:0.3];
 }
 
 #pragma mark - Table view data source

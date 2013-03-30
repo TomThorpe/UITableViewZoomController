@@ -10,6 +10,9 @@
 
 @implementation TabTwoViewController
 
+/**
+ This example changes the initial alpha to be 1.0 so that the cell does not fade in. It also changes the animation duration to 0.5 seconds rather than the default, and changes the scale of both axes to be 0.9 so they are stretched less than the default, and zoom in (because the number is less than 1) rather than zooming out like the default does. It uses standard table view cells with text in rather than custom cells.
+ */
 -(void)viewDidLoad{
     self.cellZoomInitialAlpha = [NSNumber numberWithFloat:1.0];
     self.cellZoomAnimationDuration = [NSNumber numberWithFloat:0.5];

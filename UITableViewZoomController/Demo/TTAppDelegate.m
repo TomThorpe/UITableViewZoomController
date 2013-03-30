@@ -10,6 +10,7 @@
 
 #import "TableViews/TabOneViewController.h"
 #import "TableViews/TabTwoViewController.h"
+#import "TableViews/TabThreeViewController.h"
 
 @implementation TTAppDelegate
 
@@ -17,15 +18,17 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1, *viewController2;
+    UIViewController *viewController1, *viewController2, *viewController3;
 
     viewController1 = [[TabOneViewController alloc] init];
     viewController1.tabBarItem.title = @"Custom Cells";
     viewController2 = [[TabTwoViewController alloc] init];
     viewController2.tabBarItem.title = @"Simple Cells";
+    viewController3 = [[TabThreeViewController alloc] init];
+    viewController3.tabBarItem.title = @"Custom Offsets";
     
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[viewController1, viewController2, viewController3];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

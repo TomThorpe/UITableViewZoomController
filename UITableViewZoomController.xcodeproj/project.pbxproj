@@ -23,6 +23,8 @@
 		9F7024CF16DBF7F80003B5FA /* TabTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024CD16DBF7F80003B5FA /* TabTwoViewController.xib */; };
 		9F7024D116DBFBE20003B5FA /* FancyCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024D016DBFBE20003B5FA /* FancyCellView.xib */; };
 		9F7024D316DBFC9B0003B5FA /* about-tomthorpelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7024D216DBFC9B0003B5FA /* about-tomthorpelogo.png */; };
+		9F80F6E217071D0300EDFFE5 /* TabThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F80F6E017071D0300EDFFE5 /* TabThreeViewController.m */; };
+		9F80F6E317071D0300EDFFE5 /* TabThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F80F6E117071D0300EDFFE5 /* TabThreeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,9 @@
 		9F7024CD16DBF7F80003B5FA /* TabTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabTwoViewController.xib; sourceTree = "<group>"; };
 		9F7024D016DBFBE20003B5FA /* FancyCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FancyCellView.xib; sourceTree = "<group>"; };
 		9F7024D216DBFC9B0003B5FA /* about-tomthorpelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-tomthorpelogo.png"; sourceTree = "<group>"; };
+		9F80F6DF17071D0300EDFFE5 /* TabThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabThreeViewController.h; sourceTree = "<group>"; };
+		9F80F6E017071D0300EDFFE5 /* TabThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabThreeViewController.m; sourceTree = "<group>"; };
+		9F80F6E117071D0300EDFFE5 /* TabThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabThreeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +151,9 @@
 				9F7024CB16DBF7F80003B5FA /* TabTwoViewController.h */,
 				9F7024CC16DBF7F80003B5FA /* TabTwoViewController.m */,
 				9F7024CD16DBF7F80003B5FA /* TabTwoViewController.xib */,
+				9F80F6DF17071D0300EDFFE5 /* TabThreeViewController.h */,
+				9F80F6E017071D0300EDFFE5 /* TabThreeViewController.m */,
+				9F80F6E117071D0300EDFFE5 /* TabThreeViewController.xib */,
 				9F7024D016DBFBE20003B5FA /* FancyCellView.xib */,
 			);
 			path = TableViews;
@@ -211,6 +219,7 @@
 				9F7024CF16DBF7F80003B5FA /* TabTwoViewController.xib in Resources */,
 				9F7024D116DBFBE20003B5FA /* FancyCellView.xib in Resources */,
 				9F7024D316DBFC9B0003B5FA /* about-tomthorpelogo.png in Resources */,
+				9F80F6E317071D0300EDFFE5 /* TabThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +235,7 @@
 				9F7024C316DBF7080003B5FA /* TTUITableViewZoomController.m in Sources */,
 				9F7024C916DBF7E20003B5FA /* TabOneViewController.m in Sources */,
 				9F7024CE16DBF7F80003B5FA /* TabTwoViewController.m in Sources */,
+				9F80F6E217071D0300EDFFE5 /* TabThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +353,7 @@
 				9F7024BF16DBF6650003B5FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
