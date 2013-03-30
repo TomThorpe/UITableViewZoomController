@@ -67,8 +67,8 @@ Demo
 The included source is an XCode project which you can open to see a demo.
 
 The Demo/TableViews folder also shows three examples of UITableViewControllers that subclass TTUITableViewZoomController:
-    *TabOneViewController - Uses all the default options for UITableViewZoomController with a custom cell style showing an image. (In my opinion, this effect generally works best on custom cell styles than the Apple UITableViewCell default cell styles)
-    *TabTwoViewController - Uses one of the default Cocoa Touch styles for UICellView (UITableViewCellStyleSubtitle). Then overrides the default UITableViewZoomController properties for the InitialAlpha, XScaleFactor, YScaleFactor and AnimationDuration to result in a slightly quicker animation, that zooms in rather than out, and doesn't fade at all. 
-    *TabThreeViewController - Similar to TabOneViewController, but overrides the cellZoomXOffset and cellZoomYOffset properties to make the animation come in diagonally from the bottom left, and the AnimationDuration property to speed up the animation (like the latest version of the Google+ app)  
+* `TabOneViewController` - Uses all the default options for UITableViewZoomController with a custom cell style showing an image. (In my opinion, this effect generally works best on custom cell styles than the Apple UITableViewCell default cell styles)
+* `TabTwoViewController` - Uses one of the default Cocoa Touch styles for UICellView (UITableViewCellStyleSubtitle). Then overrides the default UITableViewZoomController properties for the InitialAlpha, XScaleFactor, YScaleFactor and AnimationDuration to result in a slightly quicker animation, that zooms in rather than out, and doesn't fade at all. 
+* `TabThreeViewController` - Similar to TabOneViewController, but overrides the cellZoomXOffset and cellZoomYOffset properties to make the animation come in diagonally from the bottom left, and the AnimationDuration property to speed up the animation (like the latest version of the Google+ app)  
 
 You can also refer to these demos for reference of how to use the library if anything is unclear :-)
