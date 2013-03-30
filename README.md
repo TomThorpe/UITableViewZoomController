@@ -23,10 +23,12 @@ Options
 ---
 There are a few options that you can use to customise the animation. These are set by Properties. You should set them in the viewDidLoad method in the Controller where you have subclassed UITableViewZoomController 
 
-* `cellZoomXScaleFactor` - How much to scale to x axis of the cell before it is animated back to normal size. 1 is normal size. >1 is bigger, <1 is smaller.
-* `cellZoomYScaleFactor` - How much to scale to y axis of the cell before it is animated back to normal size. 1 is normal size. >1 is bigger, <1 is smaller.
-* `cellZoomInitialAlpha` - The initial alpha value of the cell when it starts animation. For example if you set this to be 0 then the cell will begin completely transparent, and will fade into view as well as zooming. Value between 0 and 1.
-* `cellZoomAnimationDuration` - The duration of the animation effect, in seconds. 
+* `cellZoomXScaleFactor` - How much to scale to x axis of the cell before it is animated back to normal size. 1 is normal size. >1 is bigger, <1 is smaller. Default if not set is 1.25
+* `cellZoomYScaleFactor` - How much to scale to y axis of the cell before it is animated back to normal size. 1 is normal size. >1 is bigger, <1 is smaller. Default if not set is 1.25
+* `cellZoomInitialAlpha` - The initial alpha value of the cell when it starts animation. For example if you set this to be 0 then the cell will begin completely transparent, and will fade into view as well as zooming. Value between 0 and 1. Default if not set is 0.3
+* `cellZoomAnimationDuration` - The duration of the animation effect, in seconds. Default if not set is 0.65 seconds
+* `cellZoomXOffset` - Allows you to specify an X offset (in pixels) for the animation's initial position, so for example if you say -50 this will mean as well as the rest of the animation, the cell also comes in from 50 pixels to the left of the screen. If you say 100 it will come in from 100 pixels to the right of the screen. Combine it with the cellZoomYOffset to get the cell to come in diagonally (see TabThreeViewController in Demo examples). If not set, the default is 0.
+* `cellZoomYOffset` - Allows you to specify a Y offset (in pixels) for the animation's initial position, so for example if you say -50 this will mean as well as the rest of the animation, the cell also comes in from 50 pixels to the top of the screen. If you say 100 it will come in from 100 pixels to the bottom of the screen. Combine it with the cellZoomXOffset to get the cell to come in diagonally (see TabThreeViewController in Demo examples). If not set, the default is 0.
 
 Example Code
 ---
@@ -45,10 +47,12 @@ MyTableViewController.m:
 
 @implementation MyTableViewController
 -(void)viewDidLoad{
-    self.cellZoomInitialAlpha = [NSNumber numberWithFloat:1.0]; //these four properties are optional. If you don't supply them defaults will be used.
-    self.cellZoomAnimationDuration = [NSNumber numberWithFloat:0.5];
-    self.cellZoomXScaleFactor = [NSNumber numberWithFloat:0.9];
-    self.cellZoomYScaleFactor = [NSNumber numberWithFloat:0.9];
+    self.cellZoomInitialAlpha = [NSNumber numberWithFloat:0.1]; //these six properties are optional. If you don't supply them defaults will be used.
+    self.cellZoomAnimationDuration = [NSNumber numberWithFloat:0.3];
+    self.cellZoomXScaleFactor = [NSNumber numberWithFloat:1.3];
+    self.cellZoomYScaleFactor = [NSNumber numberWithFloat:1.3];
+    self.cellZoomXOffset = [NSNumber numberWithFloat:-75];
+    self.cellZoomYOffset = [NSNumber numberWithFloat:75];
 }
 
 /*Do the rest of the Table View Datasource and Delegate methods here as usual*/
@@ -62,6 +66,9 @@ Demo
 ---
 The included source is an XCode project which you can open to see a demo.
 
-The Demo/TableViews folder also shows two example of UITableViewControllers that subclass TTUITableViewZoomController; one that uses a custom cell style and one that uses one of the default Cocoa Touch styles. Note that this effect generally works better on custom cell styles than the default cell styles, but I've provided demos of both for you to try.
+The Demo/TableViews folder also shows three examples of UITableViewControllers that subclass TTUITableViewZoomController:
+    *TabOneViewController - Uses all the default options for UITableViewZoomController with a custom cell style showing an image. (In my opinion, this effect generally works best on custom cell styles than the Apple UITableViewCell default cell styles)
+    *TabTwoViewController - Uses one of the default Cocoa Touch styles for UICellView (UITableViewCellStyleSubtitle). Then overrides the default UITableViewZoomController properties for the InitialAlpha, XScaleFactor, YScaleFactor and AnimationDuration to result in a slightly quicker animation, that zooms in rather than out, and doesn't fade at all. 
+    *TabThreeViewController - Similar to TabOneViewController, but overrides the cellZoomXOffset and cellZoomYOffset properties to make the animation come in diagonally from the bottom left, and the AnimationDuration property to speed up the animation (like the latest version of the Google+ app)  
 
 You can also refer to these demos for reference of how to use the library if anything is unclear :-)
