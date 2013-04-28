@@ -47,14 +47,17 @@
         cell.contentView.transform = CGAffineTransformConcat(transformScale, transformTranslate);
         
         [self.tableView bringSubviewToFront:cell.contentView];
-        [UIView animateWithDuration:self.cellZoomAnimationDuration.floatValue animations:^{
-            cell.contentView.alpha = 1;
-            //clear the transform
-            cell.contentView.transform = CGAffineTransformIdentity;
-        } completion:nil];
+        [UIView animateWithDuration:self.cellZoomAnimationDuration.floatValue
+                              delay:0
+                            options:UIViewAnimationOptionAllowUserInteraction
+                         animations:^{
+                             cell.contentView.alpha = 1;
+                             //clear the transform
+                             cell.contentView.transform = CGAffineTransformIdentity;
+                         } completion:nil];
         
-
-        currentMaxDisplayedCell = indexPath.row;        
+        
+        currentMaxDisplayedCell = indexPath.row;
         currentMaxDisplayedSection = indexPath.section;
     }
 }
