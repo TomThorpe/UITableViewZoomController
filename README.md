@@ -1,3 +1,6 @@
+## Update - NO LONGER SUPPORTED.
+You'd be crazy to use this now! It's very old. This is just kept here for the posterity but wont receive updates
+
 UITableViewZoomController
 =========================
 
